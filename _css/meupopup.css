@@ -1,0 +1,155 @@
+  /* O VOTO - Conteúdo do PopUp */
+  .popup {
+	text-decoration: underline blue;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  /* PopUp */
+  .popup .popuptext {
+	visibility: hidden;
+	width: 600px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: -530%;
+	margin-left: -80px;
+  }
+  
+  /* PopUp seta */
+  .popup .popuptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Clicar - esconde e mostra o popup */
+  .popup .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+  }
+  
+  /* Add animação (fade in no popup) */
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0;} 
+	to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity:1 ;}
+  }
+  
+  /*----------------------------------------------------------------------------------------------------*/
+  
+    /* A LEI - Conteúdo do PopUp */
+	.popuplei {
+		text-decoration: underline blue;
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	  }
+	  
+	  /* PopUp */
+	  .popuplei .popuptextlei {
+		visibility: hidden;
+		width: 600px;
+		background-color: #555;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 8px 0;
+		position: absolute;
+		z-index: 1;
+		bottom: 125%;
+		left: -790%;
+		margin-left: -80px;
+	  }
+	  
+	  /* PopUp seta */
+	  .popuplei .popuptextlei::after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #555 transparent transparent transparent;
+	  }
+	  
+	  /* Clicar - esconde e mostra o popup */
+	  .popuplei .show {
+		visibility: visible;
+		-webkit-animation: fadeIn 1s;
+		animation: fadeIn 1s;
+	  }
+	  
+/*----------------------------------------------------------------------------------------------------*/
+	  
+  /* O LEMA - Conteúdo do PopUp */
+  .popuplema {
+	text-decoration: underline blue;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  /* PopUp */
+  .popuplema .popuptextlema {
+	visibility: hidden;
+	width: 280px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: -75%;
+	margin-left: -80px;
+  }
+  
+  /* PopUp seta */
+  .popuplema .popuptextlema::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Clicar - esconde e mostra o popup */
+  .popuplema .show {
+	visibility: visible;
+	-webkit-animation: fadeIn 1s;
+	animation: fadeIn 1s;
+  }

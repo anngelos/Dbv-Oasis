@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+form {
+    font-family: 'Neucha', cursive;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px; 
+}
+
+input {
+    height: 35px;
+}
+
+input, textarea {
+    font-family: 'Neucha', cursive;
+    font-size: 15pt;
+    background-color: rgba(255,255,255,.8);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 19pt;   
+}
+
+fieldset {
+    padding: 5px;
+    border-color: #cecece;
+    margin: 30px;   
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+input#btnEnviar {
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+input#btnEnviar:hover {
+    background-color: yellow;
+}
