@@ -1,4 +1,4 @@
-# Oasis do Sul Website
+# Oasis do Sul - Website
 
 Project created from scratch to introduce people to the Adventist church's Pathfinder club, of which I am a part. The project aims to showcase the club's inception as well as its activities, such as aiding those in need and scouting tasks. This was my first project using HTML5, CSS3, and JavaScript. It's worth noting that the project is not entirely completed.
 
